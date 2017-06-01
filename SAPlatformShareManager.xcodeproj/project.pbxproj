@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7D6B6CDBE990F77ECE45CDF /* libPods-SAPlatformShareManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F029A782F92E9147001116E0 /* libPods-SAPlatformShareManager.a */; };
 		ABF2304C1EDFFA880015CEAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2304B1EDFFA880015CEAF /* main.m */; };
 		ABF2304F1EDFFA880015CEAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2304E1EDFFA880015CEAF /* AppDelegate.m */; };
 		ABF230521EDFFA880015CEAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF230511EDFFA880015CEAF /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EF896D8AB18D3C3BC06263A /* Pods-SAPlatformShareManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPlatformShareManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAPlatformShareManager/Pods-SAPlatformShareManager.release.xcconfig"; sourceTree = "<group>"; };
+		7A7F540BD7A84776C82B9A27 /* Pods-SAPlatformShareManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPlatformShareManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAPlatformShareManager/Pods-SAPlatformShareManager.debug.xcconfig"; sourceTree = "<group>"; };
 		ABF230471EDFFA880015CEAF /* SAPlatformShareManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPlatformShareManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF2304B1EDFFA880015CEAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABF2304D1EDFFA880015CEAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		ABF2306B1EDFFA880015CEAF /* SAPlatformShareManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPlatformShareManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF2306F1EDFFA880015CEAF /* SAPlatformShareManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPlatformShareManagerUITests.m; sourceTree = "<group>"; };
 		ABF230711EDFFA880015CEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F029A782F92E9147001116E0 /* libPods-SAPlatformShareManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAPlatformShareManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D6B6CDBE990F77ECE45CDF /* libPods-SAPlatformShareManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		516C812DB5E9575033FD7B6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F029A782F92E9147001116E0 /* libPods-SAPlatformShareManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABF2303E1EDFFA880015CEAF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,8 @@
 				ABF230631EDFFA880015CEAF /* SAPlatformShareManagerTests */,
 				ABF2306E1EDFFA880015CEAF /* SAPlatformShareManagerUITests */,
 				ABF230481EDFFA880015CEAF /* Products */,
+				D17EA8183A9B805B7245AF0E /* Pods */,
+				516C812DB5E9575033FD7B6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +155,15 @@
 			path = SAPlatformShareManagerUITests;
 			sourceTree = "<group>";
 		};
+		D17EA8183A9B805B7245AF0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A7F540BD7A84776C82B9A27 /* Pods-SAPlatformShareManager.debug.xcconfig */,
+				5EF896D8AB18D3C3BC06263A /* Pods-SAPlatformShareManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABF230741EDFFA880015CEAF /* Build configuration list for PBXNativeTarget "SAPlatformShareManager" */;
 			buildPhases = (
+				9DE4A74C8B3D0661C1285822 /* [CP] Check Pods Manifest.lock */,
 				ABF230431EDFFA880015CEAF /* Sources */,
 				ABF230441EDFFA880015CEAF /* Frameworks */,
 				ABF230451EDFFA880015CEAF /* Resources */,
+				5858D1BA7B6F6931DC47A6D4 /* [CP] Embed Pods Frameworks */,
+				9C7A1005B7D0015BB05B3DA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +295,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5858D1BA7B6F6931DC47A6D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAPlatformShareManager/Pods-SAPlatformShareManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C7A1005B7D0015BB05B3DA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAPlatformShareManager/Pods-SAPlatformShareManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE4A74C8B3D0661C1285822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ABF230431EDFFA880015CEAF /* Sources */ = {
@@ -423,6 +498,7 @@
 		};
 		ABF230751EDFFA880015CEAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7F540BD7A84776C82B9A27 /* Pods-SAPlatformShareManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XDK267KQ83;
@@ -438,6 +514,7 @@
 		};
 		ABF230761EDFFA880015CEAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF896D8AB18D3C3BC06263A /* Pods-SAPlatformShareManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XDK267KQ83;
