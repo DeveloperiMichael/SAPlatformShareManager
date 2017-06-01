@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABF2304C1EDFFA880015CEAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2304B1EDFFA880015CEAF /* main.m */; };
+		ABF2304F1EDFFA880015CEAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2304E1EDFFA880015CEAF /* AppDelegate.m */; };
+		ABF230521EDFFA880015CEAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF230511EDFFA880015CEAF /* ViewController.m */; };
+		ABF230551EDFFA880015CEAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF230531EDFFA880015CEAF /* Main.storyboard */; };
+		ABF230571EDFFA880015CEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF230561EDFFA880015CEAF /* Assets.xcassets */; };
+		ABF2305A1EDFFA880015CEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF230581EDFFA880015CEAF /* LaunchScreen.storyboard */; };
+		ABF230651EDFFA880015CEAF /* SAPlatformShareManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF230641EDFFA880015CEAF /* SAPlatformShareManagerTests.m */; };
+		ABF230701EDFFA880015CEAF /* SAPlatformShareManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2306F1EDFFA880015CEAF /* SAPlatformShareManagerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF230611EDFFA880015CEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF2303F1EDFFA880015CEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF230461EDFFA880015CEAF;
+			remoteInfo = SAPlatformShareManager;
+		};
+		ABF2306C1EDFFA880015CEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF2303F1EDFFA880015CEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF230461EDFFA880015CEAF;
+			remoteInfo = SAPlatformShareManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABF230471EDFFA880015CEAF /* SAPlatformShareManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPlatformShareManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF2304B1EDFFA880015CEAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF2304D1EDFFA880015CEAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABF2304E1EDFFA880015CEAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABF230501EDFFA880015CEAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABF230511EDFFA880015CEAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABF230541EDFFA880015CEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF230561EDFFA880015CEAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF230591EDFFA880015CEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF2305B1EDFFA880015CEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF230601EDFFA880015CEAF /* SAPlatformShareManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPlatformShareManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF230641EDFFA880015CEAF /* SAPlatformShareManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPlatformShareManagerTests.m; sourceTree = "<group>"; };
+		ABF230661EDFFA880015CEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF2306B1EDFFA880015CEAF /* SAPlatformShareManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPlatformShareManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF2306F1EDFFA880015CEAF /* SAPlatformShareManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPlatformShareManagerUITests.m; sourceTree = "<group>"; };
+		ABF230711EDFFA880015CEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF230441EDFFA880015CEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF2305D1EDFFA880015CEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF230681EDFFA880015CEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABF2303E1EDFFA880015CEAF = {
+			isa = PBXGroup;
+			children = (
+				ABF230491EDFFA880015CEAF /* SAPlatformShareManager */,
+				ABF230631EDFFA880015CEAF /* SAPlatformShareManagerTests */,
+				ABF2306E1EDFFA880015CEAF /* SAPlatformShareManagerUITests */,
+				ABF230481EDFFA880015CEAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF230481EDFFA880015CEAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF230471EDFFA880015CEAF /* SAPlatformShareManager.app */,
+				ABF230601EDFFA880015CEAF /* SAPlatformShareManagerTests.xctest */,
+				ABF2306B1EDFFA880015CEAF /* SAPlatformShareManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF230491EDFFA880015CEAF /* SAPlatformShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				ABF2304D1EDFFA880015CEAF /* AppDelegate.h */,
+				ABF2304E1EDFFA880015CEAF /* AppDelegate.m */,
+				ABF230501EDFFA880015CEAF /* ViewController.h */,
+				ABF230511EDFFA880015CEAF /* ViewController.m */,
+				ABF230531EDFFA880015CEAF /* Main.storyboard */,
+				ABF230561EDFFA880015CEAF /* Assets.xcassets */,
+				ABF230581EDFFA880015CEAF /* LaunchScreen.storyboard */,
+				ABF2305B1EDFFA880015CEAF /* Info.plist */,
+				ABF2304A1EDFFA880015CEAF /* Supporting Files */,
+			);
+			path = SAPlatformShareManager;
+			sourceTree = "<group>";
+		};
+		ABF2304A1EDFFA880015CEAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF2304B1EDFFA880015CEAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABF230631EDFFA880015CEAF /* SAPlatformShareManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF230641EDFFA880015CEAF /* SAPlatformShareManagerTests.m */,
+				ABF230661EDFFA880015CEAF /* Info.plist */,
+			);
+			path = SAPlatformShareManagerTests;
+			sourceTree = "<group>";
+		};
+		ABF2306E1EDFFA880015CEAF /* SAPlatformShareManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF2306F1EDFFA880015CEAF /* SAPlatformShareManagerUITests.m */,
+				ABF230711EDFFA880015CEAF /* Info.plist */,
+			);
+			path = SAPlatformShareManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF230461EDFFA880015CEAF /* SAPlatformShareManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF230741EDFFA880015CEAF /* Build configuration list for PBXNativeTarget "SAPlatformShareManager" */;
+			buildPhases = (
+				ABF230431EDFFA880015CEAF /* Sources */,
+				ABF230441EDFFA880015CEAF /* Frameworks */,
+				ABF230451EDFFA880015CEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAPlatformShareManager;
+			productName = SAPlatformShareManager;
+			productReference = ABF230471EDFFA880015CEAF /* SAPlatformShareManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF2305F1EDFFA880015CEAF /* SAPlatformShareManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF230771EDFFA880015CEAF /* Build configuration list for PBXNativeTarget "SAPlatformShareManagerTests" */;
+			buildPhases = (
+				ABF2305C1EDFFA880015CEAF /* Sources */,
+				ABF2305D1EDFFA880015CEAF /* Frameworks */,
+				ABF2305E1EDFFA880015CEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF230621EDFFA880015CEAF /* PBXTargetDependency */,
+			);
+			name = SAPlatformShareManagerTests;
+			productName = SAPlatformShareManagerTests;
+			productReference = ABF230601EDFFA880015CEAF /* SAPlatformShareManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABF2306A1EDFFA880015CEAF /* SAPlatformShareManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF2307A1EDFFA880015CEAF /* Build configuration list for PBXNativeTarget "SAPlatformShareManagerUITests" */;
+			buildPhases = (
+				ABF230671EDFFA880015CEAF /* Sources */,
+				ABF230681EDFFA880015CEAF /* Frameworks */,
+				ABF230691EDFFA880015CEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF2306D1EDFFA880015CEAF /* PBXTargetDependency */,
+			);
+			name = SAPlatformShareManagerUITests;
+			productName = SAPlatformShareManagerUITests;
+			productReference = ABF2306B1EDFFA880015CEAF /* SAPlatformShareManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF2303F1EDFFA880015CEAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "张炯";
+				TargetAttributes = {
+					ABF230461EDFFA880015CEAF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					ABF2305F1EDFFA880015CEAF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABF230461EDFFA880015CEAF;
+					};
+					ABF2306A1EDFFA880015CEAF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABF230461EDFFA880015CEAF;
+					};
+				};
+			};
+			buildConfigurationList = ABF230421EDFFA880015CEAF /* Build configuration list for PBXProject "SAPlatformShareManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF2303E1EDFFA880015CEAF;
+			productRefGroup = ABF230481EDFFA880015CEAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF230461EDFFA880015CEAF /* SAPlatformShareManager */,
+				ABF2305F1EDFFA880015CEAF /* SAPlatformShareManagerTests */,
+				ABF2306A1EDFFA880015CEAF /* SAPlatformShareManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF230451EDFFA880015CEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF2305A1EDFFA880015CEAF /* LaunchScreen.storyboard in Resources */,
+				ABF230571EDFFA880015CEAF /* Assets.xcassets in Resources */,
+				ABF230551EDFFA880015CEAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF2305E1EDFFA880015CEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF230691EDFFA880015CEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF230431EDFFA880015CEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF230521EDFFA880015CEAF /* ViewController.m in Sources */,
+				ABF2304F1EDFFA880015CEAF /* AppDelegate.m in Sources */,
+				ABF2304C1EDFFA880015CEAF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF2305C1EDFFA880015CEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF230651EDFFA880015CEAF /* SAPlatformShareManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF230671EDFFA880015CEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF230701EDFFA880015CEAF /* SAPlatformShareManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF230621EDFFA880015CEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF230461EDFFA880015CEAF /* SAPlatformShareManager */;
+			targetProxy = ABF230611EDFFA880015CEAF /* PBXContainerItemProxy */;
+		};
+		ABF2306D1EDFFA880015CEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF230461EDFFA880015CEAF /* SAPlatformShareManager */;
+			targetProxy = ABF2306C1EDFFA880015CEAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF230531EDFFA880015CEAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF230541EDFFA880015CEAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF230581EDFFA880015CEAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF230591EDFFA880015CEAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF230721EDFFA880015CEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABF230731EDFFA880015CEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF230751EDFFA880015CEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SAPlatformShareManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformShareManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABF230761EDFFA880015CEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SAPlatformShareManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformShareManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABF230781EDFFA880015CEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SAPlatformShareManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformShareManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAPlatformShareManager.app/SAPlatformShareManager";
+			};
+			name = Debug;
+		};
+		ABF230791EDFFA880015CEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SAPlatformShareManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformShareManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAPlatformShareManager.app/SAPlatformShareManager";
+			};
+			name = Release;
+		};
+		ABF2307B1EDFFA880015CEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SAPlatformShareManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformShareManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SAPlatformShareManager;
+			};
+			name = Debug;
+		};
+		ABF2307C1EDFFA880015CEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SAPlatformShareManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangjiong.SAPlatformShareManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SAPlatformShareManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF230421EDFFA880015CEAF /* Build configuration list for PBXProject "SAPlatformShareManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF230721EDFFA880015CEAF /* Debug */,
+				ABF230731EDFFA880015CEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF230741EDFFA880015CEAF /* Build configuration list for PBXNativeTarget "SAPlatformShareManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF230751EDFFA880015CEAF /* Debug */,
+				ABF230761EDFFA880015CEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABF230771EDFFA880015CEAF /* Build configuration list for PBXNativeTarget "SAPlatformShareManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF230781EDFFA880015CEAF /* Debug */,
+				ABF230791EDFFA880015CEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABF2307A1EDFFA880015CEAF /* Build configuration list for PBXNativeTarget "SAPlatformShareManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF2307B1EDFFA880015CEAF /* Debug */,
+				ABF2307C1EDFFA880015CEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF2303F1EDFFA880015CEAF /* Project object */;
+}
