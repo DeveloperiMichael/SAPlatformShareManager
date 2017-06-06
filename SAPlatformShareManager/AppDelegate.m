@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SAPlatformShareManager.h"
 @interface AppDelegate ()
 
 @end
@@ -17,8 +17,54 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //注册微信appid 这里需要更换你申请的微信appId
+    [SAPlatformShareManager WXShareRegisterAppWithAppId:@"wx003e695e386ec61e"];
+    
+    
     return YES;
 }
+
+
+
+
+
+
+
+
+
+
+#pragma mark -
+#pragma mark -   分享
+
+//iOS9之前
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    return [SAPlatformShareManager handleShareOpenUrl:url];
+    
+}
+
+//iOS9之后
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
+{
+    
+    return [SAPlatformShareManager handleShareOpenUrl:url];
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

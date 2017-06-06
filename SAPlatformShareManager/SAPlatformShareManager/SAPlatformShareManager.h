@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "WXApi.h"
+#import "WXApiObject.h"
 
 typedef NS_ENUM(NSInteger, SAShareSceneType) {
     SAShareSceneTypeToQQFriends = 0,
@@ -16,7 +17,6 @@ typedef NS_ENUM(NSInteger, SAShareSceneType) {
     SAShareSceneTypeWXSceneTimeline,
     SAShareSceneTypeWXSceneFavorite
 };
-
 
 typedef NS_ENUM(NSInteger, SAShareContentType) {
     SAShareContentTypeText = 0,
@@ -29,6 +29,28 @@ typedef NS_ENUM(NSInteger, SAShareContentType) {
     SAShareContentTypeNotGif,
 };
 
+
+typedef void(^SAShareCallBack)(int responseCode, NSString *responseMsg);
+
+///分享内容的模型
+
+@interface SAShareContentModel : NSObject
+
+@property (nonatomic, copy) NSString *shareString;    //分享的文字
+@property (nonatomic, strong) UIImage *thumbImage;    //缩略图
+@property (nonatomic, strong) UIImage *shareImage;    //分享的图片
+@property (nonatomic, copy) NSString *linkUrl;        //分享的链接
+@property (nonatomic, copy) NSString *musicUrl;       //音乐分享的链接
+@property (nonatomic, copy) NSString *videoUrl;       //视频分享的链接
+@property (nonatomic, copy) NSString *description;
+@property (nonatomic, copy) NSString *title;
+
+@end
+
+
+
+
+
 @interface SAPlatformShareManager : NSObject
 
 /**
@@ -40,23 +62,45 @@ typedef NS_ENUM(NSInteger, SAShareContentType) {
 + (SAPlatformShareManager *)shareInstanceManager;
 
 /** 分享给好友、朋友圈 */
-@property (nonatomic, assign) SAShareSceneType scene;
+@property (nonatomic, assign) SAShareSceneType shareScene;
 
 /** 分享内容类型 */
 @property (nonatomic, assign) SAShareContentType contentType;
 
+/** 分享内容 */
+@property (nonatomic, strong) SAShareContentModel *contentModel;
 
-/// 微信分享
+#pragma mark - 
+#pragma mark - 微信分享
 
+- (void)shareWithCallBack:(SAShareCallBack)block;
 
-/**
- 微信text分享
-
- @param shareString 分享text内容
- @param type 分享类型
- */
-- (void)WXShareTextContent:(NSString *)shareString scene:(SAShareSceneType)type;
++ (BOOL)WXShareRegisterAppWithAppId:(NSString *)appId;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++ (BOOL)handleShareOpenUrl:(NSURL *)url;
 
 @end
+
+
+
+
+

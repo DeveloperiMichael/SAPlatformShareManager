@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A7D6B6CDBE990F77ECE45CDF /* libPods-SAPlatformShareManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F029A782F92E9147001116E0 /* libPods-SAPlatformShareManager.a */; };
+		AB9F7DDB1EE6508F00AFC300 /* 222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB9F7DD91EE6508F00AFC300 /* 222.jpg */; };
+		AB9F7DDC1EE6508F00AFC300 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9F7DDA1EE6508F00AFC300 /* 111.png */; };
+		AB9F7DDE1EE652E000AFC300 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = AB9F7DDD1EE652E000AFC300 /* image.png */; };
 		ABF2304C1EDFFA880015CEAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2304B1EDFFA880015CEAF /* main.m */; };
 		ABF2304F1EDFFA880015CEAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2304E1EDFFA880015CEAF /* AppDelegate.m */; };
 		ABF230521EDFFA880015CEAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF230511EDFFA880015CEAF /* ViewController.m */; };
@@ -16,6 +19,7 @@
 		ABF2305A1EDFFA880015CEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF230581EDFFA880015CEAF /* LaunchScreen.storyboard */; };
 		ABF230651EDFFA880015CEAF /* SAPlatformShareManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF230641EDFFA880015CEAF /* SAPlatformShareManagerTests.m */; };
 		ABF230701EDFFA880015CEAF /* SAPlatformShareManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2306F1EDFFA880015CEAF /* SAPlatformShareManagerUITests.m */; };
+		ABF2924B1EE54E7D00021DAE /* SAPlatformShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2924A1EE54E7D00021DAE /* SAPlatformShareManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,9 @@
 /* Begin PBXFileReference section */
 		5EF896D8AB18D3C3BC06263A /* Pods-SAPlatformShareManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPlatformShareManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAPlatformShareManager/Pods-SAPlatformShareManager.release.xcconfig"; sourceTree = "<group>"; };
 		7A7F540BD7A84776C82B9A27 /* Pods-SAPlatformShareManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPlatformShareManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAPlatformShareManager/Pods-SAPlatformShareManager.debug.xcconfig"; sourceTree = "<group>"; };
+		AB9F7DD91EE6508F00AFC300 /* 222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 222.jpg; sourceTree = "<group>"; };
+		AB9F7DDA1EE6508F00AFC300 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
+		AB9F7DDD1EE652E000AFC300 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		ABF230471EDFFA880015CEAF /* SAPlatformShareManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPlatformShareManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF2304B1EDFFA880015CEAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABF2304D1EDFFA880015CEAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +61,8 @@
 		ABF2306B1EDFFA880015CEAF /* SAPlatformShareManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPlatformShareManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF2306F1EDFFA880015CEAF /* SAPlatformShareManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPlatformShareManagerUITests.m; sourceTree = "<group>"; };
 		ABF230711EDFFA880015CEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF292491EE54E7D00021DAE /* SAPlatformShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPlatformShareManager.h; sourceTree = "<group>"; };
+		ABF2924A1EE54E7D00021DAE /* SAPlatformShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPlatformShareManager.m; sourceTree = "<group>"; };
 		F029A782F92E9147001116E0 /* libPods-SAPlatformShareManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAPlatformShareManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -116,6 +125,7 @@
 		ABF230491EDFFA880015CEAF /* SAPlatformShareManager */ = {
 			isa = PBXGroup;
 			children = (
+				ABF292481EE54E7D00021DAE /* SAPlatformShareManager */,
 				ABF2304D1EDFFA880015CEAF /* AppDelegate.h */,
 				ABF2304E1EDFFA880015CEAF /* AppDelegate.m */,
 				ABF230501EDFFA880015CEAF /* ViewController.h */,
@@ -153,6 +163,18 @@
 				ABF230711EDFFA880015CEAF /* Info.plist */,
 			);
 			path = SAPlatformShareManagerUITests;
+			sourceTree = "<group>";
+		};
+		ABF292481EE54E7D00021DAE /* SAPlatformShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				ABF292491EE54E7D00021DAE /* SAPlatformShareManager.h */,
+				ABF2924A1EE54E7D00021DAE /* SAPlatformShareManager.m */,
+				AB9F7DD91EE6508F00AFC300 /* 222.jpg */,
+				AB9F7DDA1EE6508F00AFC300 /* 111.png */,
+				AB9F7DDD1EE652E000AFC300 /* image.png */,
+			);
+			path = SAPlatformShareManager;
 			sourceTree = "<group>";
 		};
 		D17EA8183A9B805B7245AF0E /* Pods */ = {
@@ -274,9 +296,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB9F7DDB1EE6508F00AFC300 /* 222.jpg in Resources */,
 				ABF2305A1EDFFA880015CEAF /* LaunchScreen.storyboard in Resources */,
 				ABF230571EDFFA880015CEAF /* Assets.xcassets in Resources */,
+				AB9F7DDC1EE6508F00AFC300 /* 111.png in Resources */,
 				ABF230551EDFFA880015CEAF /* Main.storyboard in Resources */,
+				AB9F7DDE1EE652E000AFC300 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +376,7 @@
 			files = (
 				ABF230521EDFFA880015CEAF /* ViewController.m in Sources */,
 				ABF2304F1EDFFA880015CEAF /* AppDelegate.m in Sources */,
+				ABF2924B1EE54E7D00021DAE /* SAPlatformShareManager.m in Sources */,
 				ABF2304C1EDFFA880015CEAF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -593,6 +619,7 @@
 				ABF230761EDFFA880015CEAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABF230771EDFFA880015CEAF /* Build configuration list for PBXNativeTarget "SAPlatformShareManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +628,7 @@
 				ABF230791EDFFA880015CEAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABF2307A1EDFFA880015CEAF /* Build configuration list for PBXNativeTarget "SAPlatformShareManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +637,7 @@
 				ABF2307C1EDFFA880015CEAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

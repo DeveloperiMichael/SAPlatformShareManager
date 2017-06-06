@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 
+#import "SAPlatformShareManager.h"
+
 @interface ViewController ()
+- (IBAction)WXShareAction:(id)sender;
 
 @end
 
@@ -26,4 +29,16 @@
 }
 
 
+- (IBAction)WXShareAction:(id)sender {
+    
+    SAPlatformShareManager *manager = [SAPlatformShareManager shareInstanceManager];
+    manager.contentType = SAShareContentTypePhoto;
+    manager.shareScene = SAShareSceneTypeWXSceneSession;
+    manager.contentModel.thumbImage = [UIImage imageNamed:@"111"];
+    manager.contentModel.shareImage = [UIImage imageNamed:@"image"];
+    [manager shareWithCallBack:^(int responseCode, NSString *responseMsg) {
+        NSLog(@"---SendMessageToWXReq:-%d--%@---",responseCode,responseMsg);
+    }];
+    
+}
 @end
